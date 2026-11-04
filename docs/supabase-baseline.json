@@ -1,0 +1,12 @@
+{
+  "project_ref": "gguahyvrquwkeewdzsdc",
+  "verified_at_utc": "2026-11-04T07:33:39.659Z",
+  "before": {
+    "managed_auth_users": 0,
+    "managed_storage_objects": 0,
+    "database_bytes": 10917555,
+    "public_table_count": 0
+  },
+  "scope": "No existing public tables or migrations; managed schemas are untouched.",
+  "migration": "001_catalogue_candidate.sql"
+}

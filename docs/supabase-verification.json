@@ -1,0 +1,74 @@
+{
+  "counts": {
+    "songs": 795,
+    "model_runs": 13,
+    "song_clusters": 6400,
+    "audio_features": 640,
+    "song_embeddings": 640,
+    "source_attributions": 795
+  },
+  "privileges": [
+    {
+      "rls": true,
+      "table": "audio_features",
+      "anon_insert": false,
+      "anon_select": false,
+      "authenticated_insert": false
+    },
+    {
+      "rls": true,
+      "table": "model_runs",
+      "anon_insert": false,
+      "anon_select": false,
+      "authenticated_insert": false
+    },
+    {
+      "rls": true,
+      "table": "song_clusters",
+      "anon_insert": false,
+      "anon_select": false,
+      "authenticated_insert": false
+    },
+    {
+      "rls": true,
+      "table": "song_embeddings",
+      "anon_insert": false,
+      "anon_select": false,
+      "authenticated_insert": false
+    },
+    {
+      "rls": true,
+      "table": "songs",
+      "anon_insert": false,
+      "anon_select": true,
+      "authenticated_insert": false
+    },
+    {
+      "rls": true,
+      "table": "source_attributions",
+      "anon_insert": false,
+      "anon_select": true,
+      "authenticated_insert": false
+    }
+  ],
+  "database_bytes": 14292659,
+  "verified_at_utc": "2026-11-04T07:59:55.4554+00:00",
+  "managed_auth_users": 0,
+  "managed_storage_objects": 0,
+  "invalid_feature_dimensions": 0,
+  "invalid_gmm_probability_sums": 0,
+  "publication_complete": true,
+  "migration": "vibeatlas_catalogue_v1",
+  "method": "MCP insert-only batches, ON CONFLICT DO NOTHING; user approved resumed import",
+  "managed_record_counts_unchanged": true,
+  "rest_checks": {
+    "songs": 200,
+    "source_attributions": 200,
+    "audio_features": 401,
+    "model_runs": 401,
+    "song_clusters": 401,
+    "song_embeddings": 401
+  },
+  "security_advisories": "Four informational notices: private RLS tables deliberately have no public policies or grants",
+  "performance_advisories": "Four informational unused indexes on newly created tables; no indexes removed"
+}

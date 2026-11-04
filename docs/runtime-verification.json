@@ -1,0 +1,64 @@
+{
+  "verified_at_utc": "2026-11-04T07:48:36.099259+00:00",
+  "health": {
+    "status": "ok",
+    "version": "1.0.0",
+    "release": "fma-v1-3d834d86dd91",
+    "catalogue_count": 795,
+    "feature_count": 640,
+    "supabase_configured": true
+  },
+  "catalogue_status": {
+    "source": "supabase",
+    "database": "connected",
+    "audio_analysis": "FMA published descriptors only; Jamendo analysis is not authorized"
+  },
+  "spa_shell_routes_http_200": [
+    "/",
+    "/onboarding",
+    "/my-vibe",
+    "/discover",
+    "/collections",
+    "/universe",
+    "/ml-lab",
+    "/licenses",
+    "/privacy"
+  ],
+  "built_entry_assets_http_200": 2,
+  "hero_bytes": 45018,
+  "third_party_notices_retrieved": true,
+  "real_profile_generated": true,
+  "real_recommendations_returned": 6,
+  "ml_endpoints_http_200": [
+    "kmeans",
+    "gmm",
+    "em",
+    "pca",
+    "dimensions",
+    "factors",
+    "hierarchy",
+    "distances",
+    "evaluation"
+  ],
+  "provider_stream_reference_available": true,
+  "stream_reference_contains_configured_client_id": false,
+  "audio_fetched": false,
+  "dev_private_file_status": {
+    "api.docx": 403,
+    "API.DOCX?raw": 403,
+    ".env.local": 403
+  },
+  "local_warm_http_timings": {
+    "catalogue": {
+      "samples": 11,
+      "warm_p50_ms": 6.95,
+      "warm_p95_ms": 12.31
+    },
+    "profile": {
+      "samples": 11,
+      "warm_p50_ms": 9.95,
+      "warm_p95_ms": 12.76
+    }
+  },
+  "limits": "HTTP checks do not prove browser layout, audible playback, accessibility or a cloud deployment. Timings are local warm measurements, not Core Web Vitals."
+}

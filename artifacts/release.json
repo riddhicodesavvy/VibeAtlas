@@ -1,0 +1,7 @@
+{
+  "release": "fma-v1-3d834d86dd91",
+  "artifact_file": "fma-v1-3d834d86dd91.json",
+  "artifact_sha256": "fac09511737ddef277ffbb6c710a23d95a1557d9c57d6bf709437e51e2da9ec3",
+  "dataset_hash": "e2fe00276edd0f06c0db7e0a40c9ce724db165814902ceae910de87cb43b06e5",
+  "feature_schema": "fma-librosa-17-log-scaled-v1"
+}
